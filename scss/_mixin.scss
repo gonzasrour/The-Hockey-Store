@@ -1,0 +1,11 @@
+@mixin parrafoConParametros($size, $alineacion) {
+    font-size: $size ;
+    text-align: $alineacion ;
+
+ }
+
+
+
+.parrafosConHambre {
+    @include parrafoConParametros(50px, right )
+ }

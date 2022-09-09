@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+}
+.tamLogo {
+    width: 18rem;
+}
+
+.fuentesNav {
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.encabezado {
+    border-top: solid 20px #1E8449;
+
+}
+
+.botonCangreBurguer {
+    height: 5rem;
+    width: 5rem;
+}
+
+@import "header";
+@import "hero";
+
+/* Oferta */
+
+.tituloProductos {
+    background-color:  #1E8449;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.tituloProductos h2 {
+    font-size: 5rem;
+}
+
+@import "maps";
+@import "extend";
+@import "mixin";
+@import "footer";
+@import "carrusel";
+
+
+

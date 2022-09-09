@@ -1,0 +1,99 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 3rem; }
+
+.tamLogo {
+  width: 18rem; }
+
+.fuentesNav {
+  font-size: 3rem;
+  padding-left: 2rem; }
+
+.encabezado {
+  border-top: solid 20px #1E8449; }
+
+.botonCangreBurguer {
+  height: 5rem;
+  width: 5rem; }
+
+header {
+  background-color: white; }
+  header h1 {
+    color: white; }
+  header nav {
+    background-color: white; }
+    header nav a {
+      text-decoration: none;
+      font-weight: bold; }
+      header nav a:hover {
+        background-color: beige; }
+
+/* HERO */
+.fondoImg {
+  background-image: url("../img/cancha.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.colorBtn {
+  background-color: #1E8449;
+  color: white;
+  font-size: 1.5rem; }
+
+.tituloPrincipal {
+  color: #fff; }
+
+/* Oferta */
+.tituloProductos {
+  background-color: #1E8449;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem; }
+
+.tituloProductos h2 {
+  font-size: 5rem; }
+
+/*Maps*/
+.facebook {
+  color: #1E8449; }
+
+.instagram {
+  color: blue; }
+
+.twitter {
+  color: yellow; }
+
+/*Map - Get*/
+.pepelepu {
+  background-color: #1E8449;
+  font-size: 40px; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+.parrafosConHambre {
+  font-size: 50px;
+  text-align: right; }
+
+/* FOOTER  */
+footer {
+  background-color: #1E8449;
+  color: white; }
+
+footer ul li a {
+  color: white !important; }
+
+/* CAROUSEL  */
+.imgCarousel {
+  height: 350px;
+  object-fit: cover; }
